@@ -18,26 +18,25 @@ The original data set are:
 
 # Getting and cleaning data
 
-## 1. Merges the training and test sets to create one data set
+**1. Merges the training and test sets to create one data set**
 completeData is the final data set after merging of training and test sets.
 It has 10299 rows and 563 columns 
 
-## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+**2. Extracts only the measurements on the mean and standard deviation for each measurement**
 extractedData us the extracted data with either mean or standard deviation measurement
 It has 10299 rows and 88 columns 
 
-##3. Uses descriptive activity names to name the activities in the data set
+**3. Uses descriptive activity names to name the activities in the data set**
 extractedData has a proper name header name for Activity column, based on table 
 activityLabels from activity_labels.txt
-  e.g 1 is replaced as "WALKING"
+- e.g 1 is replaced as "WALKING"
 
-## 4. Appropriately labels the data set with descriptive variable names.
+**4. Appropriately labels the data set with descriptive variable names**
 extractedData has appropriately being labels with descriptive varible names
-  e.g r tBodyAcc-mean()-X is replaced as "TimeBodyAccelerometerMean-X"  
+- e.g r tBodyAcc-mean()-X is replaced as "TimeBodyAccelerometerMean-X"  
 
-## 5. Creates a second, independent tidy data set with the average of each 
-## variable for each activity and each subject.
+**5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject**
 tidyData is created with the average of each variable for each activity and each subject
 It has 180 rows and 88 columns 
 
-The tidy data set is exported to tidy.txt
+The tidy data set is exported to [tidy.txt](tidy.txt)
